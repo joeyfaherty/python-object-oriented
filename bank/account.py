@@ -1,6 +1,7 @@
 from __future__ import annotations
 from typing import List
 
+
 class Account:
     def __init__(self, owner: str, balance: float = 0.0) -> None:
         self.owner: str = owner

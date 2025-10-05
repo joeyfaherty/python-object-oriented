@@ -1,5 +1,6 @@
 from .account import Account
 
+
 class CurrentAccount(Account):
     def __init__(self, owner: str, balance: float = 0.0, overdraft_limit: float = 100.0) -> None:
         super().__init__(owner, balance)
